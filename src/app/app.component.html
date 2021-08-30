@@ -1,0 +1,11 @@
+
+<div style="bold text-align:center;">
+  <h1 > welcome my {{title}} </h1>
+  <div>
+  <input type="number" (keyup)="onKey($event)">
+  
+  <button class="btn" type="number" (click)="calculateAge()"> Age Calculate  </button>
+  </div>
+  <h3 class="bold" *ngIf="birthDate"> Your Age Is {{Age}}</h3>
+  
+  </div>
